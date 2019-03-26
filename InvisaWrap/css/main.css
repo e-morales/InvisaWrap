@@ -4,3 +4,10 @@ background:#fff;
 clear:left; 
 font:14px Helvetica,Arial,sans-serif; 
 }
+
+
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+   }
