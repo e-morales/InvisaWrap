@@ -1,3 +1,7 @@
+html{
+    scroll-behavior: smooth;
+}
+
 /* Form Styles */
 #mc_embed_signup {
 background:#fff; 
@@ -12,6 +16,25 @@ footer {
     width: 100%;
    }
 
+
+.input,.textarea{
+   max-width: 50% !important;
+   margin:auto;
+}
+
+.preOrder{
+    margin-top: 30px;
+}
+
+.aboutUs, .productImages{
+    display: flex;
+}
+
+
+.is-128x128,.is-480x800{
+margin:auto;
+}
+
 .rain {
     background-image: url('https://media.giphy.com/media/TVpeXDi8xTlyo/giphy.gif');
     background-size: cover;
@@ -24,3 +47,4 @@ footer {
     min-width: 100%; 
     min-height: 100%;
   }
+
