@@ -16,6 +16,7 @@ footer {
     width: 100%;
    }
 
+
 .input,.textarea{
    max-width: 50% !important;
    margin:auto;
@@ -33,3 +34,17 @@ footer {
 .is-128x128,.is-480x800{
 margin:auto;
 }
+
+.rain {
+    background-image: url('https://media.giphy.com/media/TVpeXDi8xTlyo/giphy.gif');
+    background-size: cover;
+}
+
+#myVideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%; 
+    min-height: 100%;
+  }
+
