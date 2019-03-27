@@ -30,11 +30,7 @@
                     <a class="navbar-item" href= "#aboutUs">
                       About
                     </a>
-              
-                    <a class="navbar-item" href= "#mc_embed_signup">
-                      Sign Up 
-                    </a>
-
+                    
                     <a class="navbar-item" href= "#products">
                         Products 
                     </a>
@@ -42,27 +38,6 @@
                     <a class="navbar-item" href= "#preOrder">
                             Pre Order
                     </a>
-                    
-                    <!-- <div class="navbar-item has-dropdown is-hoverable">
-                      <a class="navbar-link">
-                        More
-                      </a>
-              
-                      <div class="navbar-dropdown">
-                        <a class="navbar-item">
-                          About
-                        </a>
-                        <a class="navbar-item">
-                          Jobs
-                        </a>
-                        <a class="navbar-item">
-                          Contact
-                        </a>
-                        <hr class="navbar-divider">
-                        <a class="navbar-item">
-                          Report an issue
-                        </a>
-                      </div> -->
                     </div>
                   </div>
               
@@ -74,8 +49,6 @@
             <div class="modal">
               <div class="modal-background"></div>
               <div class="modal-content">
-
-
 
                     <div id="mc_embed_signup">
                             <form action="https://mittymonarch.us20.list-manage.com/subscribe/post?u=0ad289630d83b4d9054781230&amp;id=d2ef97d6ad" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
@@ -118,8 +91,7 @@
           
           </div>
 
-    <div class ="showModal"><button class="button " id="showModal">Subscribe To Our Newsletter</button>
-    </div>
+  
 
 
     <h1 class= "companyName">InvisaWrap</h1>
@@ -127,29 +99,57 @@
      
 
   </div>
+  <!-- header image -->
     <img class= 'rain' src="./Images/shoes.png"/>
 
-  <h1 id = "products"></h1>
+    <div class ="productIntro">
 
+    <h1 class= "introTitle">Disappear Completely</h1>
+    <h2 class= "introDescription">Have you ever wanted to disappear in a crowd? How about walking 
+        on a busy street unnoticed? Or dip out of an awkward social situation? 
+        Have we got the thing for you! InvisaWrap is a completely transparent 
+        flexible hooded poncho that fits in your pocket! Simply unwrap it, shake 
+        it out and drape it around yourself to completely disappear from view!</h2>
 
-   
-        <!-- Begin Mailchimp Signup Form -->
-        <div id="mc_embed_signup">
-                <form action="https://mittymonarch.us20.list-manage.com/subscribe/post?u=0ad289630d83b4d9054781230&amp;id=d2ef97d6ad" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+        <div class ="showModal"><button class="button showButton " id="showModal">SUBSCRIBE TO OUR NEWSLETTER</button>
+        </div>
+    </div>
+    </div>
+
+    <h1 id = "products">Products</h1>
+
 
 
 
   <div class ="productImages">
 
-    
-              <img class ="productImageSize" src="./Images/Female 007.png">
-     
-        
-              <img class ="productImageSize" src="./Images/3:4 Shot.jpg">
+            <div>
+              <div><img class ="productImageSize" src="./Images/Female 007.png"></div>
+              <div><p>Have you ever wanted to disappear in a crowd? How about walking 
+                    on a busy street unnoticed? Or dip out of an awkward social situation? 
+                    Have we got the thing for you! InvisaWrap is a completely transparent 
+                    flexible hooded poncho that fits in your pocket! Simply unwrap it, shake 
+                    it out and drape it around yourself to completely disappear from view!</p></div>
+                </div>
+            
+            <div>
+              <div><img class ="productImageSize" src="./Images/3:4 Shot.jpg"></div>
+              <div><p>Have you ever wanted to disappear in a crowd? How about walking 
+                    on a busy street unnoticed? Or dip out of an awkward social situation? 
+                    Have we got the thing for you! InvisaWrap is a completely transparent 
+                    flexible hooded poncho that fits in your pocket! Simply unwrap it, shake 
+                    it out and drape it around yourself to completely disappear from view!</p></div>
    
-        
-               <img class ="productImageSize" src="./Images/male.png">
-    
+                </div>
+
+                <div>
+               <div><img class ="productImageSize" src="./Images/male.png"></div>
+                    <div><p>Have you ever wanted to disappear in a crowd? How about walking 
+                    on a busy street unnoticed? Or dip out of an awkward social situation? 
+                    Have we got the thing for you! InvisaWrap is a completely transparent 
+                    flexible hooded poncho that fits in your pocket! Simply unwrap it, shake 
+                    it out and drape it around yourself to completely disappear from view!</p></div>
+                </div>
   </div>
 
   <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
@@ -192,7 +192,7 @@
 
         <!-- Begin Mailchimp Signup Form -->
        
-
+<!-- 
 
                     <h1 id = "aboutUs"> About Us</h1>
 
@@ -207,48 +207,38 @@
                             <figure class="image is-128x128">
                                     <img class="is-rounded" src="https://bulma.io/images/placeholders/128x128.png">
                             </figure>
-                    </div>
+                    </div> -->
 
 
 
 
+            
+                <div class= preOrderDiv>
+                    <h1 class= "preOrder">Ready To Disappear?</h1>
 
 
-                    <h1 class= "preOrder">Pre Order Your InvisaWrap Now!</h1>
                     <div class="field" id="preOrder">
-                            <label class="label">Name</label>
+                            
                             <div class="control">
-                              <input class="input" type="text" placeholder="e.g Alex Smith">
+                                Name
+                              <input class="input nameInput" type="text" placeholder="e.g Alex Smith">
+                             Sizes <button class= "buttonSize">S</button> <button class= "buttonSize">M</button> <button class= "buttonSize">L</button>
                             </div>
                      </div>
-                          
-                     <div class="field">
-                            <label class="label">Email</label>
+
+                     <div class="field" id="email">
+                         
                             <div class="control">
+                                    Email
                               <input class="input" type="email" placeholder="e.g. alexsmith@gmail.com">
                             </div>
                     </div>
 
-                    <div class="field">
-                            <label class="label">Address</label>
-                            <div class="control">
-                              <input class="input" type="email" placeholder="e.g. alexsmith@gmail.com">
-                            </div>
                     </div>
-                    <div class="control">
-                            <div class="select">
-                              <select>
-                                <option>Select dropdown</option>
-                                <option>Small</option>
-                                <option>Medium</option>
-                                <option>Large</option>
-                              </select>
-                            </div>
-                    </div>
+   
+                </div>
 
-
-
-
+            
                    
                     <!--End mc_embed_signup-->
 
