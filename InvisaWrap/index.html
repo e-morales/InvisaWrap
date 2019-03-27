@@ -4,13 +4,17 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Hello Bulma!</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.4/css/bulma.min.css">
     <link rel="stylesheet" href="css/main.css"></link>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script type="text/javascript" src="./app.js"></script>
     <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
+
   </head>
   <body>
 
-    
         <nav class="navbar" role="navigation" aria-label="main navigation">
                 <div class="navbar-brand">
               
@@ -64,48 +68,136 @@
               
                 </div>
               </nav>
+    <!--Full-length Header-->
 
-  <div>
-      Logo
-      <figure class="image is-128x128 logoDiv ">
+    <div class="container" id="app">
+            <div class="modal">
+              <div class="modal-background"></div>
+              <div class="modal-content">
+
+
+
+
+
+                    <div id="mc_embed_signup">
+                            <form action="https://mittymonarch.us20.list-manage.com/subscribe/post?u=0ad289630d83b4d9054781230&amp;id=d2ef97d6ad" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+            
+                                    <div id="mc_embed_signup_scroll">
+                                    <h2>Subscribe to our mailing list</h2>
+            
+                                <div class="field">
+                                    <label class = "label" for="mce-EMAIL">Email Address  <span class="asterisk">*</span></label>
+                                    <div class="control">
+                                        <input class="input" type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL " >
+                                    </div>
+                                </div>
+                                <div class="field">
+                                    <label class = "label" for="mce-FNAME">First Name </label>
+                                    <div class="control">
+                                            <input class="input" type="text" value="" name="FNAME" class="" id="mce-FNAME">
+                                        </div>
+                                </div>
+                                <div class="field">
+                                    <label class = "label" for="mce-LNAME">Last Name </label>
+                                    <input class="input" type="text" value="" name="LNAME" class="" id="mce-LNAME">
+                                </div>
+                                    <div id="mce-responses" class="clear">
+                                        <div class="response" id="mce-error-response" style="display:none"></div>
+                                        <div class="response" id="mce-success-response" style="display:none"></div>
+                                    </div>    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+                                    <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_0ad289630d83b4d9054781230_d2ef97d6ad" tabindex="-1" value=""></div>
+                                    <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
+                                    </div>
+                                </form>
+                                
+                            </div>
+              
+            
+            </div>
+              <button class="modal-close"></button>
+            </div>
+            
+          
+          </div>
+
+    <div class ="showModal"><button class="button " id="showModal">Subscribe To Our Newsletter</button>
+    </div>
+
+          <figure class="image is-128x128 logoDiv ">
             <img class="is-rounded logo" src="https://bulma.io/images/placeholders/128x128.png">
-    </figure>
+            
+     </figure>
+
   </div>
-  <h1 id = "products"></h1>
-   
     <img src="./Images/shoes.png"/>
+
+  <h1 id = "products"></h1>
+
+
+   
         <!-- Begin Mailchimp Signup Form -->
         <div id="mc_embed_signup">
                 <form action="https://mittymonarch.us20.list-manage.com/subscribe/post?u=0ad289630d83b4d9054781230&amp;id=d2ef97d6ad" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
 
-                        <div id="mc_embed_signup_scroll">
-                        <h2>Subscribe to our mailing list</h2>
 
-                    <div class="field">
-                        <label class = "label" for="mce-EMAIL">Email Address  <span class="asterisk">*</span></label>
-                        <div class="control">
-                            <input class="input" type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL " >
-                        </div>
-                    </div>
-                    <div class="field">
-                        <label class = "label" for="mce-FNAME">First Name </label>
-                        <div class="control">
-                                <input class="input" type="text" value="" name="FNAME" class="" id="mce-FNAME">
-                            </div>
-                    </div>
-                    <div class="field">
-                        <label class = "label" for="mce-LNAME">Last Name </label>
-                        <input class="input" type="text" value="" name="LNAME" class="" id="mce-LNAME">
-                    </div>
-                        <div id="mce-responses" class="clear">
-                            <div class="response" id="mce-error-response" style="display:none"></div>
-                            <div class="response" id="mce-success-response" style="display:none"></div>
-                        </div>    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
-                        <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_0ad289630d83b4d9054781230_d2ef97d6ad" tabindex="-1" value=""></div>
-                        <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
-                        </div>
-                    </form>
-                </div>
+
+  <div class ="productImages">
+
+          <figure class="image is-480x800">
+              <img src="https://cdn.shopify.com/s/files/1/1614/0005/products/SARA-14-276CLR_530x.jpg?v=1545148079">
+           </figure>
+          <figure class="image is-480x800">
+              <img src="https://cdn.shopify.com/s/files/1/1614/0005/products/SARA-14-276CLR_530x.jpg?v=1545148079">
+           </figure>
+          <figure class="image is-480x800">
+               <img src="https://cdn.shopify.com/s/files/1/1614/0005/products/SARA-14-276CLR_530x.jpg?v=1545148079">
+          </figure>
+  </div>
+
+  <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+        </ol>
+
+  <div class="carousel-inner">
+
+
+        <div class="carousel-item active">
+
+            <img id = "Italy" class="d-block w-100" src="https://cdn.shopify.com/s/files/1/1614/0005/products/SARA-14-276CLR_530x.jpg?v=1545148079" alt="First slide">
+        </div>
+
+        <div class="carousel-item">
+
+            <img id= "Greece" class="d-block w-100" src="https://cdn.shopify.com/s/files/1/1614/0005/products/SARA-14-276CLR_530x.jpg?v=1545148079" alt="Second slide">
+        </div>
+
+        <div class="carousel-item">
+
+            <img id= "Spain" class="d-block w-100" src="https://cdn.shopify.com/s/files/1/1614/0005/products/SARA-14-276CLR_530x.jpg?v=1545148079" alt="Third slide">
+        </div>
+
+        <div class="carousel-item">
+            <img id= "India" class="d-block w-100" src="https://cdn.shopify.com/s/files/1/1614/0005/products/SARA-14-276CLR_530x.jpg?v=1545148079" alt="Fourth slide">
+        </div>
+
+</div>
+
+     <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+       <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+       <span class="sr-only">Previous</span>
+     </a>
+     <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+       <span class="carousel-control-next-icon" aria-hidden="true"></span>
+       <span class="sr-only">Next</span>
+     </a>
+</div>
+
+        <!-- Begin Mailchimp Signup Form -->
+       
 
 
                     <h1 id = "aboutUs"> About Us</h1>
@@ -124,19 +216,6 @@
                     </div>
 
 
-                    <h1 id = "products">Products</h1>
-                    <div class ="productImages">
-
-                            <figure class="image is-480x800">
-                                <img src="https://bulma.io/images/placeholders/256x256.png">
-                             </figure>
-                            <figure class="image is-480x800">
-                                <img src="https://bulma.io/images/placeholders/256x256.png">
-                             </figure>
-                            <figure class="image is-480x800">
-                                 <img src="https://bulma.io/images/placeholders/256x256.png">
-                            </figure>
-                    </div>
 
 
 
@@ -176,11 +255,19 @@
 
 
 
+                   
+                    <!--End mc_embed_signup-->
+
 
   <script type='text/javascript' src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script>
   <script type='text/javascript'>(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[0]='EMAIL';ftypes[0]='email';fnames[1]='FNAME';ftypes[1]='text';fnames[2]='LNAME';ftypes[2]='text';fnames[3]='ADDRESS';ftypes[3]='address';fnames[4]='PHONE';ftypes[4]='phone';}(jQuery));var $mcj = jQuery.noConflict(true);</script>
   <!--End mc_embed_signup-->
 
 
+                    <script type='text/javascript' src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script><script type='text/javascript'>(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[0]='EMAIL';ftypes[0]='email';fnames[1]='FNAME';ftypes[1]='text';fnames[2]='LNAME';ftypes[2]='text';fnames[3]='ADDRESS';ftypes[3]='address';fnames[4]='PHONE';ftypes[4]='phone';}(jQuery));var $mcj = jQuery.noConflict(true);</script>
+                    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+                    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+                    <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
   </body>
 </html>

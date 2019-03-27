@@ -8,6 +8,7 @@ html{
     margin:auto;
 }
 
+
 /* header */
 .rain {
     background-image: url('./Images/header.jpg');
@@ -17,13 +18,39 @@ html{
     right: 0;
     bottom: 0;
     min-width: 100%; 
-    min-height: 100%;
-}
+    min-height:100%;
+  }
+
+
 
 .logo{
       position: absolute;
       z-index: 1; 
   }
+
+
+  .showModal{
+    display: flex;
+ }
+
+
+
+ @media screen and (max-width: 500px) {
+    .productImages{
+        display: none;
+    }
+}
+
+    
+ @media only screen and (min-width: 501px) {
+    .carousel-inner{
+        display: none;
+    }
+
+    }
+
+
+ 
 
 
 /* nav */
@@ -50,3 +77,4 @@ footer {
     bottom: 0;
     width: 100%;
    }
+
