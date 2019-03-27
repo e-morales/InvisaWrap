@@ -1,52 +1,33 @@
+/* * */
 html{
     scroll-behavior: smooth;
 }
 
-/* Form Styles */
-
-
-footer {
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-   }
-
-
-.input,.textarea{
-   max-width: 50% !important;
-   margin:auto;
-}
-
-.preOrder{
-    margin-top: 30px;
-}
-
-.aboutUs, .productImages{
-    display: flex;
-}
-
-
+/* placeholder images */
 .is-128x128,.is-480x800{
-margin:auto;
+    margin:auto;
 }
 
-  #myVideo {
+
+/* header */
+.rain {
+    background-image: url('./Images/header.jpg');
+    background-size: cover;
+    z-index: -1;
     position: absolute;
     right: 0;
+    bottom: 0;
     min-width: 100%; 
-    height:auto !important;
-    z-index: -1;
+    min-height:100%;
   }
 
 
-  .logo{
+
+.logo{
       position: absolute;
       z-index: 1; 
   }
 
-  .logoDiv{
-      margin-bottom: 50%;
-  }
 
   .showModal{
     display: flex;
@@ -70,3 +51,30 @@ margin:auto;
 
 
  
+
+
+/* nav */
+
+
+/* About section */
+.aboutUs, .productImages{
+    display: flex;
+}
+
+/* form styles */
+.input,.textarea{
+    max-width: 50% !important;
+    margin:auto;
+ }
+ 
+ .preOrder{
+     margin-top: 30px;
+ }
+
+/* footer */
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+   }
+
