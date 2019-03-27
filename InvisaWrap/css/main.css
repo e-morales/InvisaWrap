@@ -4,23 +4,30 @@ html{
 }
 
 /* placeholder images */
-.is-128x128,.is-480x800{
+.productImageSize{
     margin:auto;
+    height:400px;
+    width:570px;
 }
-
 
 /* header */
 .rain {
     background-image: url('./Images/header.jpg');
     background-size: cover;
+    background-repeat: no-repeat;
     z-index: -1;
-    position: absolute;
     right: 0;
     bottom: 0;
     min-width: 100%; 
     min-height:100%;
   }
 
+  .companyName{
+      position: absolute;
+      font-size: 30px;
+      color:white;
+
+  }
 
 
 .logo{
@@ -32,25 +39,6 @@ html{
   .showModal{
     display: flex;
  }
-
-
-
- @media screen and (max-width: 500px) {
-    .productImages{
-        display: none;
-    }
-}
-
-    
- @media only screen and (min-width: 501px) {
-    .carousel-inner{
-        display: none;
-    }
-
-    }
-
-
- 
 
 
 /* nav */
@@ -78,3 +66,17 @@ footer {
     width: 100%;
    }
 
+
+
+   @media screen and (max-width: 500px) {
+    .productImages{
+        display: none;
+    }
+}
+
+ @media only screen and (min-width: 501px) {
+    .carousel-inner,.carousel-indicators{
+        display: none;
+    }
+
+    }
